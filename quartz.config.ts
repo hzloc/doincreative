@@ -8,47 +8,45 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "doincreative.com",
+    pageTitleSuffix: "Do in Creative",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "doincreative.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Recoleta", // soft, retro-modern serif – welcoming and stylish
+        body: "Work Sans", // clean but a bit quirky – easy to read with personality
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f4f1ec", // soft warm white – feels natural, easy on the eyes
+          lightgray: "#e4e1dc", // warm light gray – used in UI backgrounds
+          gray: "#7a736d", // matte taupe gray – great for subtle text & icons
+          darkgray: "#57534e", // rich, warm gray – good for strong text without harshness
+          dark: "#3e3a36", // Coal brown – rich, warm, soft but strong
+          secondary: "#5a7f8e", // desaturated slate blue – serious but inviting
+          tertiary: "#b8c1c1", // muted sage gray – adds freshness without being loud
+          highlight: "rgba(90, 127, 142, 0.1)", // soft blue-gray hover – quiet and clean
+          textHighlight: "#ffe58588", // buttery yellow glow – cozy and noticeable
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1b1b1a", // deep charcoal – avoids pure black for warmth
+          lightgray: "#2c2b2a", // elevated surfaces in dark UI
+          gray: "#8f8c87", // warm matte gray – for inactive UI and text
+          darkgray: "#e6e3dc", // creamy light tone for text (off-white with warmth)
+          dark: "#fafaf9", // super light bone white – great for contrast
+          secondary: "#7b9ea5", // softened blue-gray – clean and calm
+          tertiary: "#a8c4bb", // dusty mint – adds a quiet personality
+          highlight: "rgba(168, 196, 187, 0.12)", // low-key hover with a hint of sage
+          textHighlight: "#ffdca188", // subtle peach-yellow – adds a soft glow
         },
       },
     },
