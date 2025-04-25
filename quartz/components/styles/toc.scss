@@ -50,11 +50,13 @@ ul.toc-content.overflow {
   & > li > a {
     color: var(--dark);
     opacity: 0.35;
+    display: block; // ✅ This makes the border show properly
     transition:
       0.5s ease opacity,
       0.3s ease color;
     &.in-view {
       opacity: 0.75;
+      border-right: 2px solid #d97e83; // ✅ dusty rose
     }
   }
 

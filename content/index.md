@@ -1,12 +1,17 @@
 ---
-title: Welcome to Quartz
+title: Well here come
 draft: "false"
-tags:
-  - welcome-mat
 date: 2025-04-25
 ---
+# welcome <-> Xoş gəldiniz
 
-Hey welceoms
+Hey there, I'm **Huseyn Zeynalov**. Self-taught data engineer, and currently contributing in [@gr8tech](https://gr8.tech).
 
+Let's say we are under construction as of *2025-04-25*.
 
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+> [!cite]
+> We shape our buildings; thereafter they shape us. [^1]
+
+I guess here we shape our data, and thereafter they shape us 👨🏻‍🍳
+
+[^1]: Winston Churchill
