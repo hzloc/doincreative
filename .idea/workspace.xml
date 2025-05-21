@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53223cfd-74bd-46f5-9b67-8d0c3c3844ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/me.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz.layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz.layout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/components/styles/toc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/components/styles/toc.scss" afterDir="false" />
-    </list>
+    <list default="true" id="53223cfd-74bd-46f5-9b67-8d0c3c3844ce" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
